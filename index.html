@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Teko:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS AWESOME ICONS-->
+    <script
+      src="https://kit.fontawesome.com/8c07b3f9a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Fast Banana</title>
+
+    <!-- JQUERY UI CSS -->
+    <link
+      rel="stylesheet"
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+
+    <!-- MAGNIFIC POPUP CSS -->
+    <link rel="stylesheet" href="/magnific/magnific-popup.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav id="nav">
+        <div class="nav-logo">
+          <img src="images/nav-logo.svg" alt="nav" />
+          <i class="fa fa-arrow-down" id="toggle-btn"></i>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#skills">Services</a></li>
+          <li><a href="#">Portofolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="nav-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="banner">
+        <div class="banner-text">
+          <h1>fast banana</h1>
+          <h3>this is what we do</h3>
+          <a href="#">start now</a>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- ICON SECTION -->
+    <section id="icon-section">
+      <a href=""><i class="fa fa-home"></i></a>
+      <a href=""><i class="fa fa-book"></i></a>
+      <a href=""><i class="fa fa-coffee"></i></a>
+      <a href=""><i class="fa fa-anchor"></i></a>
+    </section>
+    <!-- END OF ICON SECTION -->
+
+    <!-- SKILLS SECTION -->
+    <!-- title -->
+    <section id="skills">
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-gears"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">Skills we provide</h2>
+          <p class="title-subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, est?
+          </p>
+        </div>
+      </div>
+      <!-- End of title -->
+
+      <div class="skills-center">
+        <article class="skill">
+          <i class="fa fa-apple"></i>
+          <h3>Apple</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+            doloribus.
+          </p>
+        </article>
+        <article class="skill">
+          <i class="fa fa-google"></i>
+          <h3>Google</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+            doloribus.
+          </p>
+        </article>
+        <article class="skill">
+          <i class="fa fa-android"></i>
+          <h3>Android</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+            doloribus.
+          </p>
+        </article>
+        <article class="skill">
+          <i class="fa fa-gear"></i>
+          <h3>Tools</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+            doloribus.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- END OF SKILLS SECTION -->
+
+    <!-- FORM SECTION -->
+    <section id="form">
+      <div class="form-content">
+        <h1 class="form-title">subscribe here</h1>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email"
+          />
+          <input type="submit" id="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+    <!-- END FORM SECTION -->
+
+    <!-- WORK SECTION -->
+
+    <!-- title -->
+    <section id="work">
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-pencil-square-o"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">future projects</h2>
+          <p class="title-subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, est?
+          </p>
+        </div>
+      </div>
+      <!-- end title -->
+
+      <div class="work-center">
+        <div class="button-container">
+          <div class="button-group filter-button-group">
+            <button data-filter="*">all</button>
+            <button data-filter=".city">city</button>
+            <button data-filter=".country">country</button>
+            <button data-filter=".water">water</button>
+          </div>
+        </div>
+
+        <div class="picture-container">
+          <article class="picture-item city">
+            <img src="/images/projects-city-1.jpeg" alt />
+          </article>
+          <article class="picture-item country">
+            <img src="/images/projects-country-1.jpeg" alt />
+          </article>
+          <article class="picture-item water">
+            <img src="/images/projects-water-1.jpeg" alt />
+          </article>
+
+          <article class="picture-item city">
+            <img src="/images/projects-city-2.jpeg" alt />
+          </article>
+          <article class="picture-item country">
+            <img src="/images/projects-country-2.jpeg" alt />
+          </article>
+          <article class="picture-item water">
+            <img src="/images/projects-water-2.jpeg" alt />
+          </article>
+
+          <article class="picture-item city">
+            <img src="/images/projects-city-3.jpeg" alt />
+          </article>
+          <article class="picture-item country">
+            <img src="/images/projects-country-3.jpeg" alt />
+          </article>
+          <article class="picture-item water">
+            <img src="/images/projects-water-3.jpeg" alt />
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END OF WORK SECTION -->
+
+    <!-- ABOUT -->
+    <section id="about">
+      <!-- title -->
+
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-user"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">about us</h2>
+          <p class="title-subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, est?
+          </p>
+        </div>
+      </div>
+      <!-- end title -->
+
+      <div id="about-center">
+        <article id="about-photo">
+          <img src="/images/current-projects-1.jpeg" alt="current-project" />
+        </article>
+
+        <article id="about-text">
+          <div id="accordion">
+            <h3>press herefor more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro quibusdam totam quasi numquam dolores rerum minus est
+              perspiciatis tenetur!
+            </div>
+            <h3>press herefor more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro quibusdam totam quasi numquam dolores rerum minus est
+              perspiciatis tenetur!
+            </div>
+            <h3>press herefor more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro quibusdam totam quasi numquam dolores rerum minus est
+              perspiciatis tenetur!
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- END OF ABOUT -->
+
+    <!-- CURRENT PROJECTS SECTION -->
+
+    <section id="current">
+      <!-- title -->
+
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-image"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">current projects</h2>
+          <p class="title-subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, est?
+          </p>
+        </div>
+      </div>
+      <!-- end title -->
+
+      <div id="current-center">
+        <article class="current-item">
+          <a href="/images/current-projects-1.jpeg">
+            <img src="/images/current-projects-1.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-2.jpeg">
+            <img src="/images/current-projects-2.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-3.jpeg">
+            <img src="/images/current-projects-3.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-4.jpeg">
+            <img src="/images/current-projects-4.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-3.jpeg">
+            <img src="/images/current-projects-3.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-1.jpeg">
+            <img src="/images/current-projects-1.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-2.jpeg">
+            <img src="/images/current-projects-2.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+        <article class="current-item">
+          <a href="/images/current-projects-4.jpeg">
+            <img src="/images/current-projects-4.jpeg" alt="ccurrent project" />
+          </a>
+        </article>
+      </div>
+    </section>
+    <!-- END OF CURRENT PROJECTS SECTION -->
+
+    <!-- NUMBERS SECTION -->
+    <section id="numbers">
+      <article id="number">
+        <i class="fa fa-user"> </i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="1"
+        >
+          1000
+        </p>
+        <h3>users</h3>
+      </article>
+      <article id="number">
+        <i class="fa fa-cart-plus"> </i>
+        <p
+          class="numscroller"
+          data-min="7"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="1"
+        >
+          1000
+        </p>
+        <h3>downloads</h3>
+      </article>
+      <article id="number">
+        <i class="fa fa-fire-extinguisher"> </i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="1"
+        >
+          1000
+        </p>
+        <h3>emergencies</h3>
+      </article>
+
+      <article id="number">
+        <i class="fa fa-envelope"> </i>
+        <p
+          class="numscroller"
+          data-min="10"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="1"
+        >
+          1200
+        </p>
+        <h3>messages</h3>
+      </article>
+    </section>
+    <!-- END OF NUMBERS SECTION -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- IMAGES -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- ISOTOPE -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- JQUERY UI CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- ISOTOPE -->
+    <script src="isotope.js"></script>
+
+    <!-- MAGNIFIC -->
+    <script src="/magnific/jquery.magnific-popup.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- MAGNIFIC JS -->
+    <script src="/magnific/magnific.js"></script>
+
+    <!-- numscroller -->
+    <script src="/numscroller-1.0.js"></script>
+  </body>
+</html>
